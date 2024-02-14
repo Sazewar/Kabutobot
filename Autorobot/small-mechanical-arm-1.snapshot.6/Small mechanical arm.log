@@ -1,0 +1,3669 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V12.0
+! INFO-      
+! INFO-     Start of Translation: 14-FEB-2024  11:18:19 AM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Small mechanical arm.STEP
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      STEP AP214
+! SUMMARY-  Imp_Level        1
+! SUMMARY-  File_Name        Small mechanical arm.STEP
+! SUMMARY-  Date             2014-03-19T01:40:55
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      SwSTEP 2.0
+! SUMMARY-  Orig_System      SolidWorks 2013
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:  13326
+! SUMMARY-  application_context ........................................:    394
+! SUMMARY-  axis2_placement_3d .........................................:  23080
+! SUMMARY-  b_spline_curve_with_knots ..................................:   4769
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:   1369
+! SUMMARY-  b_spline_surface_with_knots ................................:    486
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:    199
+! SUMMARY-  cartesian_point ............................................: 156616
+! SUMMARY-  circle .....................................................:   9929
+! SUMMARY-  closed_shell ...............................................:    140
+! SUMMARY-  conical_surface ............................................:   1676
+! SUMMARY-  context_dependent_shape_representation .....................:    417
+! SUMMARY-  cylindrical_surface ........................................:   4463
+! SUMMARY-  direction ..................................................:  66479
+! SUMMARY-  edge_curve .................................................:  36386
+! SUMMARY-  edge_loop ..................................................:  14182
+! SUMMARY-  face_bound .................................................:    856
+! SUMMARY-  face_outer_bound ...........................................:  13326
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:   3234
+! SUMMARY-  item_defined_transformation ................................:    417
+! SUMMARY-  length_unit_and_si_unit ....................................:   3234
+! SUMMARY-  line .......................................................:  20319
+! SUMMARY-  manifold_solid_brep ........................................:    139
+! SUMMARY-  next_assembly_usage_occurrence .............................:    417
+! SUMMARY-  open_shell .................................................:      1
+! SUMMARY-  oriented_edge ..............................................:  72765
+! SUMMARY-  plane ......................................................:   6054
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:   3234
+! SUMMARY-  product ....................................................:    197
+! SUMMARY-  product_context ............................................:    197
+! SUMMARY-  product_definition .........................................:    197
+! SUMMARY-  product_definition_context .................................:    197
+! SUMMARY-  product_definition_formation_with_specified_source .........:    197
+! SUMMARY-  product_definition_shape ...................................:    614
+! SUMMARY-  product_related_product_category ...........................:    197
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:    417
+! SUMMARY-  shape_representation .......................................:    197
+! SUMMARY-  shell_based_surface_model ..................................:      1
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:   3234
+! SUMMARY-  spherical_surface ..........................................:     65
+! SUMMARY-  toroidal_surface ...........................................:    383
+! SUMMARY-  uncertainty_measure_with_unit ..............................:   3234
+! SUMMARY-  vector .....................................................:  20319
+! SUMMARY-  vertex_point ...............................................:  23385
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                         510938
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 14-FEB-2024 11:18:22 AM
+! STATUS-    
+! WARNING-  Reference Set Name motor_connect is changed to: motor_connect-c01.
+! INFO-     CV0305 The entities referenced by a context_dependant_shape_rep are
+! INFO-       not coded as to STEP Part 43 requirements.  The references to the
+! INFO-       component and assembly pieces is out of order.  We will attempt
+! INFO-       to correct this with the given data.  This problem should be
+! INFO-       reported to the translator vendor whose product generated this
+! INFO-       STEP file.  If we are unable to rectify this problem the
+! INFO-       components may be positioned incorrectly.
+! INFO-      
+! INFO-     CV : STEP Ent Id      44821 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     233669 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     274081 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      30009 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     132249 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     460255 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     333489 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      10651 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     330776 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      55378 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     170242 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     459404 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     145603 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      42896 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     291603 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     479135 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:25 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 184169
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\SCREW_M2_5_12
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:26 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 532043
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\base_shield_pw_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:26 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 226381
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\tyre 68.5x22
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:27 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 129285
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\TS_-038D
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:27 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 247244
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\NUTM3_2
+! ERROR-    Unable to archive C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\NUTM3_2:
+! ERROR-     
+! ERROR-    File already exists
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:28 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 320676
+! STATUS-    
+! INFO-     Degeneracy in b-spline entity 169818 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -4.099999 0.000000 5.400000
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\User_Library-1054-1_K_X_F6rper_1_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:28 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 122533
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Threaded Shaft-4x39
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:28 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 79461
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Ë®¾§×ù
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:28 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 150120
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LINK2
+! ERROR-    Unable to archive C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LINK2:
+! ERROR-     
+! ERROR-    File already exists
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:28 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 533979
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\User_Library-1054-1_Windung1_1_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:28 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 340002
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\DC Motor-37 Bracket
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:28 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 338066
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 515338
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R0603
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:29 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 434390
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Ë®¾§Í·
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:29 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 143945
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\SCREW_M4_10
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:29 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 354770
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Extruded
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:29 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 46131
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\É¢ÈÈÆ¬_12x6
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:29 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 32045
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\2.54mm2510_Flat_cable_connectors(1)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:29 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 69788
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Plate 135Deg
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:29 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 30110
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Í­ÂÝÖùm4x24amm
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:29 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 453738
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\·½±ê4
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:30 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 356745
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Screw M4X16
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:30 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 112644
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\User_Library-MicroUSB-B_Molex_105017-0001
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:30 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 321384
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 87250
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 46843
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 63657
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 500617
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 72448
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 380199
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 15362
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\SW3dPS-TSSOP14-1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     8
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              8
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:30 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 241125
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\2L_22_35S
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:31 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 202856
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Motor Bracket 25
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:31 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 395029
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 411666
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 306655
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 169408
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 477174
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 243092
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 105889
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 259751
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 457868
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 263903
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 223745
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\SW3dPS-TSSOP-20
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    11
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             11
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:31 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 514654
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\NUT_M3
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:31 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 70489
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\hex nuts, style 1-grades ab gb_GB_FASTENER_NUT_SNAB1 M4-N
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:31 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 508518
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\PLASTIC_RING_2_5
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:31 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 207761
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\User_Library-1054-1_Pins_1_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:32 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 166743
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\1000_16V_RVT(1)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:32 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 498607
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Timing Pulley-90TV2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:34 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 458549
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\SCREW_M2_5_14
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:34 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 127320
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Extruded_3
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:34 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 160652
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\µç»úÇý¶¯Ä£¿é
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:34 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 103908
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Extruded_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:35 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 283205
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 145955
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 435078
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 297873
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 162569
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\SW3dPS-LED_SMD0603
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     5
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              5
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:35 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 361585
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Timing Pulley 62T
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:36 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 52961
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Plate 3x6
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:36 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 167432
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\BoardMe-BaseBoard_V1.0_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:36 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 475214
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\·½±ê8
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:37 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 420412
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Screw M4x30
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:37 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 240434
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\·½±ê3
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:37 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 48836
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\O_RING_6X3MM_1D5
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:37 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 13373
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 12696
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 186124
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 378203
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 29435
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 120601
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 110690
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\User_Library-IDC6
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     7
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              7
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:37 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 6561
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\DC Motor 25
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:37 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 397033
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\NYLONM4
+! ERROR-    Unable to archive C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\NYLONM4:
+! ERROR-     
+! ERROR-    File already exists
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:37 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 510514
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Plastic Ring 4x7x2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:37 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 384383
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\SCREW_M3_18
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:38 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 200217
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Screw M4x8
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:38 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 86545
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LINK
+! ERROR-    Unable to archive C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LINK:
+! ERROR-     
+! ERROR-    File already exists
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:38 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 314605
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\À¶ÑÀ½ÓÊÕÆ÷
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:38 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 287310
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\cross recessed pan head screws gb_GB_CROSS_SCREWS_TYPE1 M2X5-5  H type-S
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:38 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 299809
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Timing Pulley 18T
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:38 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 109994
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\DC-3.5
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:38 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 280558
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\PLASTIC_RIVET_4100_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:39 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 55678
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Beam0824-5_Beam0824-5
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:39 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 316578
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\·½±ê7
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:40 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 8553
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Beam0808-6_Beam0808-6
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:40 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 337354
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\5ºÅµç³Ø
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:40 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 89203
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\·½±ê2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:40 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 183461
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\User_Library-SOT23-2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:40 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 303986
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Screw M4X12
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:41 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 93334
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\SHIM_8X3MM_D65
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:41 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 323357
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\User_Library-SOIC-8-1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:41 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 403782
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\SCREWM1_6
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:43 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 25286
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   fixing inconsistent loop faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13803 - RTSTMG: Missing Geometry.
+! INFO-     Could not create solid body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many solid body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\User_Library-1054-1_Windung_1_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:43 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 401177
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Extruded_5
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:43 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 266514
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Flange Bearing 4x8x3mm
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:44 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 437066
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LOCKNUTM2_5
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:44 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 417717
+! STATUS-    
+! INFO-     Degeneracy in b-spline entity 125636 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -0.330770 -4.173760 4.308227
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\User_Library-1054-1_Windung2_1_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:44 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 207052
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Bracket 3x3
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:44 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 460489
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Extruded_7
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:44 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 401848
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\BOTTOM2
+! ERROR-    Unable to archive C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\BOTTOM2:
+! ERROR-     
+! ERROR-    File already exists
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:44 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 441192
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 451763
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 413652
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 481344
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\DO-214AC
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:45 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 474505
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Beam0824-4_Beam0824-4
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:45 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 200925
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\motor_connect
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:45 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 190305
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\DC Motor 37
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:46 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 217605
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\PLASTIC_RIVET_4100_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:46 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 304678
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Beam0808-10_Beam0808-12
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:47 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 273498
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\PLASTIC_RIVET_4060A_4-1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:47 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 209719
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\·½±ê6
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:47 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 297178
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 491838
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 257786
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\power_base_2p
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:47 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 493786
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Extruded_9
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:47 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 176381
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\µç³ØºÐ
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:47 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 23308
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\·½±ê1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:47 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 224446
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Shaft clamping hub-4mm
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:47 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 531369
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Extruded_8
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:48 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 65605
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LOCKNUTM3
+! ERROR-    Unable to archive C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LOCKNUTM3:
+! ERROR-     
+! ERROR-    File already exists
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:48 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 517334
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\base_shield_pw_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:48 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 377567
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Screw headless M3¡Á4
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:48 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 406401
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 22303
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\MOTOR_20131119
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:53 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 281244
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Shaft Collar-4mm
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:53 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 360896
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\CHUCK
+! ERROR-    Unable to archive C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\CHUCK:
+! ERROR-     
+! ERROR-    File already exists
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:53 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 36237
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Beam0824-8_Beam0824-8
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:55 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 344175
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\BOTTOM
+! ERROR-    Unable to archive C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\BOTTOM:
+! ERROR-     
+! ERROR-    File already exists
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:55 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 219577
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\98MXL Blet
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:55 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 418389
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\µç³ØºÐÁ¬½ÓÍ·
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:55 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 143275
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Bracket 3x6
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:55 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 538140
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\pin_2(1)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:55 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 363518
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\D Shaft 4xL_D shaft 4x112
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:56 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 497926
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\buzzer
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:56 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 133468
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\PLASTIC_RIVET_4100_B
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:56 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 394344
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\·½±ê5
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:56 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 491126
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Beam0824-6_Beam0824-6
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:57 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 126645
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\base_board_plate
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:57 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 230552
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\cross recessed countersunk head screws gb1_GB_CROSS_SCREWS_TYPE4 M3X10-8.35  H type-S
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:57 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R5Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:57 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\917980144
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:57 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\1510087552
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:58 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\F3Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:58 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\917961456_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:58 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C7Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:58 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C6Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:58 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R18Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:58 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C28Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:58 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C25Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:58 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\U2Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:58 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\D6Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:58 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\P3Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:58 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\917973488
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:59 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R7Me-BaseBoard_V1.0_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:59 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R8Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:59 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Y1Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:59 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\J5Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:59 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C10Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:59 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R15Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:59 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C26Me-BaseBoard_V1.0_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:59 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Plastic Rivet R4060
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:59 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C30Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:59 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\P2Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:18:59 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\U1Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:00 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\D7Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:00 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\P1Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:00 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C8Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:00 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Plastic Rivet R4100
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:00 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R6Me-BaseBoard_V1.0_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:00 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R9Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:00 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C9Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:00 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\1510084864_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:00 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\L1Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:00 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\D1Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:00 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Q3Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:01 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C15Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:01 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Free-Models
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:01 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\1510086400_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:01 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\D9Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:01 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C17Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:01 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\917974896
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:01 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\F1Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:01 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C13Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:01 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\User_Library-1054-11
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     5
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              5
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:01 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\L4Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:01 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R10Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:02 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LS1Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:02 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R1Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:02 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\D4Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:02 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Q2Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:02 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C14Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:02 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\F4Me-BaseBoard_V1.0_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:02 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\D5Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:02 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\U4Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:02 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\F2Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:02 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Ð¡ÐÍ»úÐµ±ÛASM001 Frame
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:   105
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            105
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:03 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\L2Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:03 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R4Me-BaseBoard_V1.0_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:03 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\P4Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:03 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\D2Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:03 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\S2Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:03 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C24Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:03 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R12Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:03 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R17Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:03 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\D8Me-BaseBoard_V1.0_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:03 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\base_shield_pw_sw(1)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:04 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\S1Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:04 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C3Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:04 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\USB1Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:04 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R3Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:04 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\JP1Me-BaseBoard_V1.0_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:04 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C4Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:04 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Q1Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:04 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\D3Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:04 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R2Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:04 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Q4Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:05 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R11Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:05 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\R16Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:05 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\L3Me-BaseBoard_V1.0_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:05 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\C1Me-BaseBoard_V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:05 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Me-BaseBoard V1.0
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    86
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             86
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:05 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\µç³ØºÐ&µç³Ø
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     7
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              7
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:05 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\motor_connect451143
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:05 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\base_board_µç³ØºÐ
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    23
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             23
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:06 AM
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: NYLONM4
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\NYLONM4
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: LOCKNUTM3
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LOCKNUTM3
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: LINK
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LINK
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: CHUCK
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\CHUCK
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: LINK
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LINK
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: NYLONM4
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\NYLONM4
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: CHUCK
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\CHUCK
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: LINK
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LINK
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: BOTTOM
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\BOTTOM
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: NYLONM4
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\NYLONM4
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: LINK
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LINK
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: BOTTOM2
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\BOTTOM2
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: NYLONM4
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\NYLONM4
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: LINK
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LINK
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: LINK
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LINK
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: NUTM3_2
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\NUTM3_2
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: LINK2
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LINK2
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: LINK2
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LINK2
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: LINK
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LINK
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: NUTM3_2
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\NUTM3_2
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: BOTTOM2
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\BOTTOM2
+! WARNING-    Convert all component parts before converting the master part
+! WARNING-  Unable to create a component instance in the master part
+! WARNING-    Component name: LINK
+! WARNING-    Component part name: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\LINK
+! WARNING-    Convert all component parts before converting the master part
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\StrongRobotGripper
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    40
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             40
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:08 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Ð¡ÐÍ»úÐµ±ÛASM002
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    10
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             10
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:08 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Ð¡ÐÍ»úÐµ±ÛASM001
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    10
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             10
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:08 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Ð¡ÐÍ»úÐµ±ÛASM002 µ×ÅÌ
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    19
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             19
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-FEB-2024  11:19:08 AM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autorobot\small-mechanical-arm-1.snapshot.6\Small mechanical arm_step.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! INFO-      
+! INFO-     Total number of solids input for this translation       :       140
+! INFO-      
+! INFO-     Number of solids created without body validation faults :       139
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         1
+! INFO-      
+! INFO-     End of Translation: 14-FEB-2024  11:19:09 AM
+! INFO-      
