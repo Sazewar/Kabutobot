@@ -1,0 +1,496 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V12.0
+! INFO-      
+! INFO-     Start of Translation: 20-FEB-2024  10:14:30 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\Sazewar\Desktop\Autobot\Autorobot\LM2596_DC-DC_BUCK CONVERTER ASSY-corrected 061823.STEP
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      STEP AP203
+! SUMMARY-  Imp_Level        1
+! SUMMARY-  File_Name        LM2596_DC-DC_BUCK CONVERTER ASSY-corrected 061823.STEP
+! SUMMARY-  Date             2023-06-20T07:16:25
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      SwSTEP 2.0
+! SUMMARY-  Orig_System      SolidWorks 2021
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim_lf
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:   1454
+! SUMMARY-  application_context ........................................:     40
+! SUMMARY-  approval ...................................................:     84
+! SUMMARY-  approval_date_time .........................................:     84
+! SUMMARY-  approval_person_organization ...............................:     84
+! SUMMARY-  approval_role ..............................................:     84
+! SUMMARY-  approval_status ............................................:     84
+! SUMMARY-  axis2_placement_3d .........................................:   1377
+! SUMMARY-  b_spline_curve_with_knots ..................................:    885
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:     84
+! SUMMARY-  b_spline_surface_with_knots ................................:    433
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:     93
+! SUMMARY-  calendar_date ..............................................:    148
+! SUMMARY-  cartesian_point ............................................:  25955
+! SUMMARY-  cc_design_approval .........................................:     84
+! SUMMARY-  cc_design_date_and_time_assignment .........................:     64
+! SUMMARY-  cc_design_person_and_organization_assignment ...............:    124
+! SUMMARY-  cc_design_security_classification ..........................:     44
+! SUMMARY-  circle .....................................................:    416
+! SUMMARY-  closed_shell ...............................................:     20
+! SUMMARY-  conical_surface ............................................:      3
+! SUMMARY-  context_dependent_shape_representation .....................:     24
+! SUMMARY-  conversion_based_unit_and_length_unit ......................:     20
+! SUMMARY-  coordinated_universal_time_offset ..........................:    148
+! SUMMARY-  cylindrical_surface ........................................:    199
+! SUMMARY-  date_and_time ..............................................:    148
+! SUMMARY-  date_time_role .............................................:     64
+! SUMMARY-  design_context .............................................:     20
+! SUMMARY-  dimensional_exponents ......................................:     20
+! SUMMARY-  direction ..................................................:   5166
+! SUMMARY-  edge_curve .................................................:   3797
+! SUMMARY-  edge_loop ..................................................:   1559
+! SUMMARY-  face_bound .................................................:    105
+! SUMMARY-  face_outer_bound ...........................................:   1454
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     20
+! SUMMARY-  item_defined_transformation ................................:     24
+! SUMMARY-  length_measure_with_unit ...................................:     20
+! SUMMARY-  length_unit_and_si_unit ....................................:     20
+! SUMMARY-  line .......................................................:   2412
+! SUMMARY-  local_time .................................................:    148
+! SUMMARY-  manifold_solid_brep ........................................:     20
+! SUMMARY-  mechanical_context .........................................:     20
+! SUMMARY-  next_assembly_usage_occurrence .............................:     24
+! SUMMARY-  organization ...............................................:     25
+! SUMMARY-  oriented_edge ..............................................:   7594
+! SUMMARY-  person .....................................................:     25
+! SUMMARY-  person_and_organization ....................................:    184
+! SUMMARY-  person_and_organization_role ...............................:    124
+! SUMMARY-  plane ......................................................:    726
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:     20
+! SUMMARY-  product ....................................................:     20
+! SUMMARY-  product_definition .........................................:     20
+! SUMMARY-  product_definition_formation_with_specified_source .........:     20
+! SUMMARY-  product_definition_shape ...................................:     44
+! SUMMARY-  product_related_product_category ...........................:     20
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     24
+! SUMMARY-  security_classification ....................................:     44
+! SUMMARY-  security_classification_level ..............................:     44
+! SUMMARY-  shape_representation .......................................:     20
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:     20
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     20
+! SUMMARY-  vector .....................................................:   2412
+! SUMMARY-  vertex_point ...............................................:   2470
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                          60952
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 20-FEB-2024 10:14:31 PM
+! STATUS-    
+! INFO-     CV0305 The entities referenced by a context_dependant_shape_rep are
+! INFO-       not coded as to STEP Part 43 requirements.  The references to the
+! INFO-       component and assembly pieces is out of order.  We will attempt
+! INFO-       to correct this with the given data.  This problem should be
+! INFO-       reported to the translator vendor whose product generated this
+! INFO-       STEP file.  If we are unable to rectify this problem the
+! INFO-       components may be positioned incorrectly.
+! INFO-      
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:31 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 33818
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\POT_LM2596
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:31 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 13959
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\User Library-DC-DC MODULE LM2596s_R0603
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:31 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 14365
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\User Library-DC-DC MODULE LM2596s_User Library-TO-263-5_TO-263-5_Body_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:31 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 53991
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\User Library-DC-DC MODULE LM2596s_User Library-TO-263-5_TO-263-5_Leads_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:32 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 33717
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\User Library-DC-DC MODULE LM2596s_C0603
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:32 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 34329
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\DIODE_LM2596
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:32 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 12623
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\User Library-DC-DC MODULE LM2596s_User Library-ALU-F_Pins_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:32 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 34429
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\User Library-DC-DC MODULE LM2596s_User Library-ALU-F_Fuss_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:32 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 33218
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\INDUCTOR_LM2596
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:32 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 13340
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\User Library-DC-DC MODULE LM2596s_User Library-ALU-F_K_X_F6rper_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:32 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 13037
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\User Library-DC-DC MODULE LM2596s_User Library-ALU-F_Beschriftung_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:33 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 53786
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\PCB_LM2596 corrected 061823
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:33 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 54799
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 55022
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 34629
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 33523
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 33114
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 34124
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 33016
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 34826
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\User Library-DC-DC MODULE LM2596s_User Library-TO-263-5_TO-263-5_Marking_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     8
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              8
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:34 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\R2_LM2596
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:34 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\CAP_LM2596-1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:34 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\CAP_LM2596
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:34 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\CAP_CER_LM2596-1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:34 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\CAP_CER_LM2596
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:34 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\TO-263-5_LM2596
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 20-FEB-2024  10:14:34 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\Autobot\Autorobot\LM2596_DC-DC_BUCK CONVERTER ASSY-corrected 061823_step.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    10
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             10
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        20
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        20
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 20-FEB-2024  10:14:34 PM
+! INFO-      
